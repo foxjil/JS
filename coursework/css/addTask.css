@@ -1,0 +1,83 @@
+form {
+    width: 700px;
+}
+
+input {
+    display: block;
+}
+
+#taskData {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+#taskData > label {
+    font-size: 1.2rem;
+}
+
+#addButton {
+    width: 400px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 195, 195);
+}
+
+#taskFormHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 15px;
+}
+
+#taskFormHeader > h1 {
+    margin: 0;
+}
+
+#successMessage {
+    color: green;
+    font-size: 1rem;
+}
+
+#taskParticipants {
+    margin: 10px 0;
+}
+
+.participant {
+    width: 200px;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.partInput {
+    display: inline-block;
+    width: 150px;
+    height: 1rem;
+}
+
+.partDelete {
+    display: inline-block;
+    width: 20px;
+    line-height: 1rem;
+    padding: 2px;
+    text-align: center;
+    height: 1rem;
+}
+
+.message {
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+.error {
+    color: red;
+}
